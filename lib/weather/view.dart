@@ -90,7 +90,7 @@ class _WeatherViewState extends State<WeatherView> {
 
                   return ListTile(
                     title: Text(cityData['name']),
-                    // subtitle: Text(cityData['weather']['description']),
+                    subtitle: Text(cityData['weather']['description']),
                     trailing: Text('${cityData['main']['temp']}°C'),
                   );
                 },

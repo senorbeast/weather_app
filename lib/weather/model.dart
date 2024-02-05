@@ -31,7 +31,7 @@ class WeatherModel extends ChangeNotifier {
         final Map<String, dynamic> data = {
           'name': jsonData['name'],
           'main': jsonData["main"],
-          // 'weather': jsonData['weather'][0],
+          'weather': jsonData['weather'][0],
         };
         print(data['weather']);
         _weatherData.add({

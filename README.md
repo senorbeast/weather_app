@@ -1,8 +1,13 @@
 # weather_app
 
-A new Flutter project.
+![light](./docs/basic_light.png)
+![dark](./docs/basic_dark.png)
 
 ## Getting Started
+
+```bash
+flutter run
+```
 
 This project is a starting point for a Flutter application.
 
